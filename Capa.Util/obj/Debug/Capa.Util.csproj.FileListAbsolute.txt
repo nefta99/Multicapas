@@ -1,0 +1,10 @@
+C:\ServicioBecario2.0\Capa.Util\bin\Debug\NLog.config
+C:\ServicioBecario2.0\Capa.Util\bin\Debug\Capa.Util.dll
+C:\ServicioBecario2.0\Capa.Util\bin\Debug\Capa.Util.pdb
+C:\ServicioBecario2.0\Capa.Util\bin\Debug\NLog.dll
+C:\ServicioBecario2.0\Capa.Util\bin\Debug\NLog.xml
+C:\ServicioBecario2.0\Capa.Util\obj\Debug\Capa.Util.csprojAssemblyReference.cache
+C:\ServicioBecario2.0\Capa.Util\obj\Debug\Capa.Util.csproj.CoreCompileInputs.cache
+C:\ServicioBecario2.0\Capa.Util\obj\Debug\Capa.Util.csproj.CopyComplete
+C:\ServicioBecario2.0\Capa.Util\obj\Debug\Capa.Util.dll
+C:\ServicioBecario2.0\Capa.Util\obj\Debug\Capa.Util.pdb

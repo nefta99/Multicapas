@@ -1,0 +1,15 @@
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.services.dll
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.services.pdb
+C:\ServicioBecario2.0\Capa.services\obj\Debug\Capa.services.csprojAssemblyReference.cache
+C:\ServicioBecario2.0\Capa.services\obj\Debug\Capa.services.csproj.CoreCompileInputs.cache
+C:\ServicioBecario2.0\Capa.services\obj\Debug\Capa.services.dll
+C:\ServicioBecario2.0\Capa.services\obj\Debug\Capa.services.pdb
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.services.dll.config
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.Core.dll
+C:\ServicioBecario2.0\Capa.services\bin\Debug\EntityFramework.dll
+C:\ServicioBecario2.0\Capa.services\bin\Debug\EntityFramework.SqlServer.dll
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.Core.pdb
+C:\ServicioBecario2.0\Capa.services\bin\Debug\Capa.Core.dll.config
+C:\ServicioBecario2.0\Capa.services\bin\Debug\EntityFramework.xml
+C:\ServicioBecario2.0\Capa.services\bin\Debug\EntityFramework.SqlServer.xml
+C:\ServicioBecario2.0\Capa.services\obj\Debug\Capa.services.csproj.CopyComplete

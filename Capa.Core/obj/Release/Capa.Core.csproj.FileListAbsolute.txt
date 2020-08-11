@@ -1,0 +1,12 @@
+C:\ServicioBecario2.0\Capa.Core\bin\Release\Capa.Core.dll.config
+C:\ServicioBecario2.0\Capa.Core\bin\Release\Capa.Core.dll
+C:\ServicioBecario2.0\Capa.Core\bin\Release\Capa.Core.pdb
+C:\ServicioBecario2.0\Capa.Core\bin\Release\EntityFramework.dll
+C:\ServicioBecario2.0\Capa.Core\bin\Release\EntityFramework.SqlServer.dll
+C:\ServicioBecario2.0\Capa.Core\bin\Release\EntityFramework.xml
+C:\ServicioBecario2.0\Capa.Core\bin\Release\EntityFramework.SqlServer.xml
+C:\ServicioBecario2.0\Capa.Core\obj\Release\Capa.Core.csprojAssemblyReference.cache
+C:\ServicioBecario2.0\Capa.Core\obj\Release\Capa.Core.csproj.CoreCompileInputs.cache
+C:\ServicioBecario2.0\Capa.Core\obj\Release\Capa.Core.csproj.CopyComplete
+C:\ServicioBecario2.0\Capa.Core\obj\Release\Capa.Core.dll
+C:\ServicioBecario2.0\Capa.Core\obj\Release\Capa.Core.pdb
