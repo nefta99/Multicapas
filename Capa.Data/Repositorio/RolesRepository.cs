@@ -1,4 +1,5 @@
 ﻿using Capa.Core.Entity;
+using Capa.Data;
 using Capa.services.Repositorio;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,14 @@ namespace Capa.Data.Repositorio
     {
         public RolesRepository(DataContext _context) : base(_context) { }
         public DataContext Contexto { get { return Context as DataContext; } }
-        public Roles GetRolesPorId(int r)
+        public Roles GetRolesPorId(int p_id)
         {
-
-            return new Roles();
+            // Roles rol = (from qry in Contexto.RolesConexion.Where(o => o.Id == r) select qry).FirstOrDefault();
+            Roles rol = (   from qry in Contexto.RolesConexion
+                            where qry.Id == p_id
+                            select qry
+                         ).FirstOrDefault();
+            return rol;
         }
     }
 }

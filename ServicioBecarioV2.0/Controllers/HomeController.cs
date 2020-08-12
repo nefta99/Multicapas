@@ -13,7 +13,20 @@ namespace ServicioBecarioV2._0.Controllers
     {
         public ActionResult Index()
         {
-            UsuarioVistaModelo user = new UsuarioModelo().ObtenerUsuarios(1);
+            UsuarioVistaModelo user =  null;
+            try
+            {
+                user = new UsuarioModelo().ObtenerUsuarios(1);
+            }
+            catch(Exception e)
+            {
+                BitacoraEventos.InsertaError("HomeController", "Index", "Mostrar Usuario", (e.Message == null ? "" : e.Message) + " - " + (e.InnerException == null ? "" : e.InnerException.ToString()) + " - " + (e.StackTrace == null ? "" : e.StackTrace.ToString()), "L03036903");
+                user = new UsuarioVistaModelo();
+                user.Id = 0;
+                user.Nombre = "No hay registro";
+                user.Password = "No hay registro";
+            }
+            
             return View(user);
         }
 
@@ -23,7 +36,16 @@ namespace ServicioBecarioV2._0.Controllers
             int valor = new UsuarioModelo().agregauser("Juan", "23455");
             return View();
         }
-
+        public string Rol()
+        {
+            RolVistaModelo rovistamodelo = new RolModelo().ObtenerRol(1);
+            return "Algo";
+        }
+        public string RolUsuario()
+        {
+            List< ResultadoRolesUsuarioVistaModelo> s = new RolesUsuariosModelo().BuscarRolesPorId(2);
+            return "Hol";
+        }
         public ActionResult Contact()
         {
             int i = 3;

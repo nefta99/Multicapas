@@ -7,13 +7,13 @@ namespace Capa.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class uniones : IMigrationMetadata
+    public sealed partial class relaciones : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(uniones));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(relaciones));
         
         string IMigrationMetadata.Id
         {
-            get { return "202008110312304_uniones"; }
+            get { return "202008120027415_relaciones"; }
         }
         
         string IMigrationMetadata.Source

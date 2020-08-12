@@ -19,8 +19,12 @@ namespace Capa.Data
         {
             _context = context;
             UsuarioRoute = new UsuariosRepository(_context);
+            RolesRoute = new RolesRepository(_context);
+            RolesUsuariosRoute = new RolesUsuariosRepository(_context);
         }
 
         public IUsuariosRepository UsuarioRoute { get; private set; }
+        public IRolesRepository RolesRoute { get; private set; }
+        public IRolesUsuariosRepository RolesUsuariosRoute { get; private set; }
     }
 }

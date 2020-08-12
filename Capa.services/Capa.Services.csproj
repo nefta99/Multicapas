@@ -67,6 +67,10 @@
       <Project>{C82B3FF4-2802-477B-B54F-00026E4D4AD7}</Project>
       <Name>Capa.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Capa.Util\Capa.Util.csproj">
+      <Project>{ee33cab0-1552-4d6a-b622-50b174d6f9d6}</Project>
+      <Name>Capa.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

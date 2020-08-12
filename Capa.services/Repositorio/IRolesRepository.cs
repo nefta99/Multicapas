@@ -9,7 +9,7 @@ namespace Capa.services.Repositorio
 {
    public  interface IRolesRepository : IRepository<Roles>
     {
-        Roles GetRolesPorId(int id);
+        Roles GetRolesPorId(int p_id);
 
     }
 }

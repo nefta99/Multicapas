@@ -59,11 +59,13 @@
     <Compile Include="Migrations\202008102240524_creacionInicial.designer.cs">
       <DependentUpon>202008102240524_creacionInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202008110312304_uniones.cs" />
-    <Compile Include="Migrations\202008110312304_uniones.designer.cs">
-      <DependentUpon>202008110312304_uniones.cs</DependentUpon>
+    <Compile Include="Migrations\202008120027415_relaciones.cs" />
+    <Compile Include="Migrations\202008120027415_relaciones.designer.cs">
+      <DependentUpon>202008120027415_relaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Modelo\RolesUsuariosModelo.cs" />
+    <Compile Include="Modelo\RolModelo.cs" />
     <Compile Include="Modelo\UsuarioModelo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\Repository.cs" />
@@ -85,13 +87,17 @@
       <Project>{4D032850-E124-40DA-823C-3510A6A70945}</Project>
       <Name>Capa.Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Capa.Util\Capa.Util.csproj">
+      <Project>{ee33cab0-1552-4d6a-b622-50b174d6f9d6}</Project>
+      <Name>Capa.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202008102240524_creacionInicial.resx">
       <DependentUpon>202008102240524_creacionInicial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202008110312304_uniones.resx">
-      <DependentUpon>202008110312304_uniones.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202008120027415_relaciones.resx">
+      <DependentUpon>202008120027415_relaciones.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

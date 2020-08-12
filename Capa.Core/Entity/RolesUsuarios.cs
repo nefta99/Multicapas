@@ -10,7 +10,7 @@ namespace Capa.Core.Entity
     {
         public int Id { get; set; }
         public int UsuarioId { get; set; }
-        public int RoleId { get; set; }
+        public int RolId { get; set; }
         public Usuario Usuario { get; set; }
         public Roles Roles { get; set; }
 

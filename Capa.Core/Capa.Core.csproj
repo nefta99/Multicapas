@@ -55,11 +55,19 @@
     <Compile Include="Entity\RolesUsuarios.cs" />
     <Compile Include="Entity\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VistaModelo\ResultadoRolesUsuarioVistaModelo.cs" />
+    <Compile Include="VistaModelo\RolVistaModelo.cs" />
     <Compile Include="VistaModelo\UsuarioVistaModelo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa.Util\Capa.Util.csproj">
+      <Project>{ee33cab0-1552-4d6a-b622-50b174d6f9d6}</Project>
+      <Name>Capa.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

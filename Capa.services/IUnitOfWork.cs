@@ -10,6 +10,8 @@ namespace Capa.services
    public  interface IUnitOfWork: IDisposable
     {
         IUsuariosRepository UsuarioRoute { get; }
+        IRolesRepository RolesRoute { get; }
+        IRolesUsuariosRepository RolesUsuariosRoute { get; }
         int Complete();
     }
 }
